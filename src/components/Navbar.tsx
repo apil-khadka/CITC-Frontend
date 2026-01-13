@@ -69,12 +69,17 @@ const Navbar = () => {
                             {/* Action Button & Theme Toggle */}
                             <div className="hidden md:flex items-center gap-4">
                                 <ThemeToggle />
-                                <button className="group relative px-6 py-2.5 bg-slate-900 dark:bg-white text-white dark:text-slate-900 font-semibold rounded-full overflow-hidden hover:bg-slate-800 dark:hover:bg-cyan-50 transition-colors">
+                                <a
+                                    href="https://forms.gle/ye4PRPt5VpGiNAeF6"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="group relative px-6 py-2.5 bg-slate-900 dark:bg-white text-white dark:text-slate-900 font-semibold rounded-full overflow-hidden hover:bg-slate-800 dark:hover:bg-cyan-50 transition-colors"
+                                >
                                     <div className="absolute inset-0 w-full h-full bg-gradient-to-r from-cyan-300 to-blue-300 opacity-0 group-hover:opacity-100 transition-opacity duration-300 blur-xl" />
                                     <span className="relative flex items-center gap-2">
                                         Join Club <ChevronRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                                     </span>
-                                </button>
+                                </a>
                             </div>
 
                             {/* Mobile Menu Button */}
@@ -119,9 +124,14 @@ const Navbar = () => {
                             </a>
                         )
                     ))}
-                    <button className="px-8 py-3 bg-gradient-to-r from-cyan-500 to-blue-600 text-white font-bold rounded-xl shadow-lg shadow-cyan-500/25 w-full max-w-xs">
+                    <a
+                        href="https://forms.gle/ye4PRPt5VpGiNAeF6"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="px-8 py-3 bg-gradient-to-r from-cyan-500 to-blue-600 text-white font-bold rounded-xl shadow-lg shadow-cyan-500/25 w-full max-w-xs text-center"
+                    >
                         Join Club Now
-                    </button>
+                    </a>
                 </div>
             </div>
         </>

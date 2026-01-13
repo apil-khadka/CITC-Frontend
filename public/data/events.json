@@ -1,7 +1,7 @@
 {
   "events": [
     {
-      "id": "003",
+      "id": "002",
       "title": "“Prompt to Image” – AI Creativity Competition",
       "date": "2026-01-20",
       "time": "1 Week (Online)",
@@ -13,34 +13,19 @@
       "tags": ["AI", "Competition", "Prompt Engineering", "Creativity"]
     },
     {
-      "id": "002",
-      "title": "Full Stack Web Dev Bootcamp",
-      "date": "2025-11-10",
-      "time": "11:00 AM",
-      "location": "Lab 404",
-      "description": "A comprehensive bootcamp covering React, Node.js, and modern CSS frameworks. Perfect for beginners and intermediate developers.",
-      "image": "https://images.unsplash.com/photo-1547658719-da2b51169166?auto=format&fit=crop&q=80&w=800",
-      "status": "past",
-      "tags": ["Web Dev", "Bootcamp", "React"],
-      "gallery": [
-        "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&q=80&w=800",
-        "https://images.unsplash.com/photo-1531403009284-440f080d1e12?auto=format&fit=crop&q=80&w=800",
-        "https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&q=80&w=800"
-      ]
-    },
-    {
       "id": "001",
-      "title": "Cybersecurity Trends 2025",
-      "date": "2025-10-05",
-      "time": "1:00 PM",
-      "location": "Seminar Hall",
-      "description": "An engaging seminar on the evolving landscape of cybersecurity, featuring guest speakers from top security firms.",
-      "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&q=80&w=800",
+      "title": "Kickstart Your Tech Journey: Explore • Learn • Build",
+      "date": "2024-12-08",
+      "time": "11:00 AM - 1:00 PM",
+      "location": "NCIT Hall",
+      "description": "Theme: “Explore • Learn • Build — Your Journey as a Computer Engineer”\n\nEVENT OBJECTIVES:\nIntroduce CITC — purpose, vision, activities.\nFamiliarize students with major domains of Computer Engineering.\nGive short & practical roadmaps for each domain.\nIntroduce essential tools, software, and platforms useful for daily CE life.\nShow benefits & opportunities — GitHub Student Pack, learning platforms, hackathons.\nBuild excitement, confidence, and curiosity among participants.\nRecruit engaged members for future events.\n\nSTRUCTURE OF THE SESSION (1.5–2 hours):\n\nStarting-part\n1. Opening (5–7 mins)\nWho speaks: someone\nInclude:\nWhat is CITC?\nWhy it was started?\nWhat problems it will solve for CE students?\nWhat activities/events to expect this semester?\n\nIntroducing CITC Activities (2-3 mins)\nExplain what CITC will do:\n- Workshops\n- Project building groups\n- Hackathons\n- Weekly coding sessions\n- Robotics arm project\n- Web development bootcamp\n- AI learning circles\n- Open-source contributions\n- Doubt-solving or peer mentorship\n\n2. Warm-up Interaction (3–5 mins)\nQuick questions about interests in AI, Web dev, Cybersecurity, etc.\n\nMajor part\n3. The Core Part — Major Domains in CE (25–30 mins)\nA) SOFTWARE\n- Web Development (Frontend, Backend, MERN)\n- AI / Machine Learning\n- UI/UX\n- Mobile App Development\n- Cybersecurity\n- DevOps & Cloud\n- Data Science\n- Game Development\n\nB) HARDWARE\n- AR/VR\n- Embedded Systems / IoT\n- Robotics\n\n5. Essential Tools & Software for CE Students (10–12 mins)\n- Daily tools: VS Code, Git & GitHub, Docker, Postman\n- OS: Linux\n- Productivity: Notion, Obsidian, Trello\n- Design: Canva, Figma\n- Cloud: GitHub Pages, Netlify, Vercel\n\n6. Opportunities & Perks for CE Students\n- GitHub Student Developer Pack\n- Hackathons\n- Internships\n- Online certificates\n\nDemo/Entertainment Session\n7. Mini Demo Session (10 mins)\n\nClosing part\n9. Q&A + Feedback (5–7 mins)\n10. Closing (2–3 mins)",
+      "image": "/event/001/WhatsApp Image 2025-12-08 at 19.28.39.jpeg",
       "status": "past",
-      "tags": ["Security", "Seminar", "Cyber"],
+      "tags": ["Orientation", "Tech Journey", "Introductory"],
       "gallery": [
-        "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&q=80&w=800",
-        "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&q=80&w=800"
+        "/event/001/WhatsApp Image 2025-12-08 at 19.28.39.jpeg",
+        "/event/001/WhatsApp Image 2025-12-08 at 19.28.41 (1).jpeg",
+        "/event/001/WhatsApp Image 2025-12-08 at 19.28.41.jpeg"
       ]
     }
   ]

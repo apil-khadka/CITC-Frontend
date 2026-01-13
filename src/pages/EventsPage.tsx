@@ -29,10 +29,11 @@ const EventsPage = () => {
     }
 
     if (!eventData) {
-        return (
+        return (<>
+            <div className='h-10'></div>
             <div className="min-h-screen pt-24 text-center text-slate-900 dark:text-white bg-white dark:bg-[#0f172a] transition-colors duration-300">
                 Failed to load event data.
-            </div>
+            </div></>
         );
     }
 
@@ -47,7 +48,8 @@ const EventsPage = () => {
     const activeEvents = [...runningEvents, ...upcomingEvents];
     const pastEvents = eventData.events.filter(e => e.status === 'past');
 
-    return (
+    return (<>
+        {/* <div className='h-10'></div> */}
         <div className="min-h-screen pt-24 pb-20 bg-white dark:bg-[#0f172a] bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))] dark:bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))] transition-colors duration-300">
             <div className="container mx-auto px-4 md:px-6">
                 <div className="text-center max-w-3xl mx-auto mb-16">
@@ -96,7 +98,8 @@ const EventsPage = () => {
                 )}
             </div>
         </div>
-    );
+        )</>)
 };
+
 
 export default EventsPage;

@@ -185,9 +185,20 @@
       "semester": "V/VI",
       "teamId": "t_exec_2025"
     },
-
     {
       "id": "12",
+      "name": "Sudip Shrestha",
+      "year": 3,
+      "member_year": 2025,
+      "email": "sudip.231244@ncit.edu.np",
+      "socials": {},
+      "photo": "/media/2025/members/shyam_kishor_shah.avif",
+      "type": "Regular",
+      "semester": "V/VI",
+      "teamId": "t_exec_2025"
+    },
+    {
+      "id": "13",
       "name": "Abaneesh Shrestha",
       "year": 2,
       "member_year": 2025,
@@ -203,7 +214,7 @@
       "teamId": "t_exec_2025"
     },
     {
-      "id": "13",
+      "id": "14",
       "name": "Biraj Joshi",
       "year": 2,
       "member_year": 2025,
@@ -215,7 +226,7 @@
       "teamId": "t_exec_2025"
     },
     {
-      "id": "14",
+      "id": "15",
       "name": "Iksha Gurung",
       "year": 2,
       "member_year": 2025,
@@ -229,7 +240,7 @@
       "teamId": "t_exec_2025"
     },
     {
-      "id": "15",
+      "id": "16",
       "name": "Pranish Manandhar",
       "year": 2,
       "member_year": 2025,
@@ -245,7 +256,7 @@
       "teamId": "t_exec_2025"
     },
     {
-      "id": "16",
+      "id": "17",
       "name": "Anamol Rijal",
       "year": 1,
       "member_year": 2025,
