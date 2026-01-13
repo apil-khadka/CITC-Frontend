@@ -3,6 +3,7 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import HomePage from './pages/HomePage';
 import TeamPage from './pages/TeamPage';
+import EventsPage from './pages/EventsPage';
 import ScrollToTop from './components/ScrollToTop';
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/team" element={<TeamPage />} />
+        <Route path="/events" element={<EventsPage />} />
       </Routes>
       <Footer />
     </div>

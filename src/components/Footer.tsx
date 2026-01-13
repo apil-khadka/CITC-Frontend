@@ -92,9 +92,9 @@ const Footer = () => {
                 </div>
 
                 <div className="border-t border-white/5 pt-8 flex flex-col md:flex-row items-center justify-between gap-6">
-                    <p className="text-slate-500 text-sm">
+                    {/* <p className="text-slate-500 text-sm">
                         © {new Date().getFullYear()} CITC. Built with <span className="text-red-500 animate-pulse">❤</span> by the Tech Team.
-                    </p>
+                    </p> */}
                     <div className="flex items-center gap-6 text-sm text-slate-500">
                         <a href="#" className="hover:text-white transition-colors">Privacy Policy</a>
                         <a href="#" className="hover:text-white transition-colors">Terms of Service</a>

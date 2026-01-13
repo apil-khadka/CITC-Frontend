@@ -27,7 +27,25 @@ export interface Member {
     semester?: string;
 }
 
+export interface Event {
+    id: string;
+    title: string;
+    date: string;
+    time: string;
+    location: string;
+    description: string;
+    image: string;
+    status: 'upcoming' | 'past' | 'running';
+    registration_link?: string;
+    tags?: string[];
+    gallery?: string[];
+}
+
 export interface TeamData {
     teams: Team[];
     members: Member[];
+}
+
+export interface EventData {
+    events: Event[];
 }

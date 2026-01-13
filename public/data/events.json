@@ -1,0 +1,47 @@
+{
+  "events": [
+    {
+      "id": "prompt_to_image_2026",
+      "title": "“Prompt to Image” – AI Creativity Competition",
+      "date": "2026-01-20",
+      "time": "1 Week (Online)",
+      "location": "Online / Tallyt",
+      "description": "An AI-based creative competition. Participants must creatively fill in a standardized paragraph prompt and generate an AI-based image. Focus is on prompt quality and storytelling.",
+      "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=80&w=800",
+      "status": "running",
+      "registration_link": "https://tally.so/r/prompt_to_image_reg",
+      "tags": ["AI", "Competition", "Prompt Engineering", "Creativity"]
+    },
+    {
+      "id": "web_dev_bootcamp",
+      "title": "Full Stack Web Dev Bootcamp",
+      "date": "2025-11-10",
+      "time": "11:00 AM",
+      "location": "Lab 404",
+      "description": "A comprehensive bootcamp covering React, Node.js, and modern CSS frameworks. Perfect for beginners and intermediate developers.",
+      "image": "https://images.unsplash.com/photo-1547658719-da2b51169166?auto=format&fit=crop&q=80&w=800",
+      "status": "past",
+      "tags": ["Web Dev", "Bootcamp", "React"],
+      "gallery": [
+        "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&q=80&w=800",
+        "https://images.unsplash.com/photo-1531403009284-440f080d1e12?auto=format&fit=crop&q=80&w=800",
+        "https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&q=80&w=800"
+      ]
+    },
+    {
+      "id": "tech_talk_cyber",
+      "title": "Cybersecurity Trends 2025",
+      "date": "2025-10-05",
+      "time": "1:00 PM",
+      "location": "Seminar Hall",
+      "description": "An engaging seminar on the evolving landscape of cybersecurity, featuring guest speakers from top security firms.",
+      "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&q=80&w=800",
+      "status": "past",
+      "tags": ["Security", "Seminar", "Cyber"],
+      "gallery": [
+        "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&q=80&w=800",
+        "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&q=80&w=800"
+      ]
+    }
+  ]
+}

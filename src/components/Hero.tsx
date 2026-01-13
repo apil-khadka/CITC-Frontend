@@ -21,19 +21,32 @@ const Hero = () => {
                     </div>
 
                     {/* Main Heading */}
-                    <h1 className="text-6xl md:text-8xl lg:text-9xl font-bold tracking-tighter animate-fade-in [animation-delay:200ms] leading-[0.9]">
-                        The Future <br />
+                    <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold tracking-tighter leading-[0.95] flex flex-col gap-2 animate-fade-in [animation-delay:200ms]">
+
+                        <span className="flex items-center gap-4">
+                            <span>Computer Innovation</span>
+
+                            <img
+                                src="./&nobg.png"
+                                alt="&"
+                                className="w-12 md:w-16 lg:w-20 shrink-0"
+                            />
+                        </span>
+
                         <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-cyan-400 to-emerald-400 relative">
-                            is Here.
+                            Technology Club
                             <span className="absolute -inset-1 bg-cyan-500/20 blur-2xl -z-10 opacity-50" />
                         </span>
+
                     </h1>
 
+
                     {/* Subheading */}
-                    <p className="text-xl md:text-2xl text-slate-400 max-w-3xl mx-auto leading-relaxed font-light animate-fade-in [animation-delay:400ms]">
+                    {/* Subheading */}
+                    <p className="text-xl md:text-2xl text-slate-600 dark:text-slate-400 max-w-3xl mx-auto leading-relaxed font-light animate-fade-in [animation-delay:400ms]">
                         Join the premier student community at NCIT. Where lines of code turn into
-                        <span className="text-slate-200 font-medium"> innovation</span> and students become
-                        <span className="text-slate-200 font-medium"> leaders</span>.
+                        <span className="text-slate-900 dark:text-slate-200 font-medium"> innovation</span> and students become
+                        <span className="text-slate-900 dark:text-slate-200 font-medium"> leaders</span>.
                     </p>
 
                     {/* Buttons */}
@@ -54,9 +67,9 @@ const Hero = () => {
                     {/* Stats / Interactive Elements */}
                     <div className="grid grid-cols-2 md:grid-cols-3 gap-8 md:gap-16 pt-12 border-t border-slate-200 dark:border-white/5 animate-fade-in [animation-delay:800ms]">
                         {[
-                            { label: 'Active Members', value: '500+', icon: Users },
-                            { label: 'Events Hosted', value: '50+', icon: Calendar },
-                            { label: 'Projects Built', value: '20+', icon: Code2 },
+                            { label: 'Active Members', value: '15+', icon: Users },
+                            { label: 'Events Hosted', value: '1+', icon: Calendar },
+                            { label: 'Projects Built', value: '3+', icon: Code2 },
                         ].map((stat) => (
                             <div key={stat.label} className="flex flex-col items-center gap-2 group cursor-pointer">
                                 <stat.icon className="w-6 h-6 text-slate-500 group-hover:text-cyan-600 dark:group-hover:text-cyan-400 transition-colors mb-2" />
