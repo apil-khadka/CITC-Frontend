@@ -25,7 +25,7 @@ const Hero = () => {
                     <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold tracking-tighter leading-[0.95] flex flex-col gap-2 animate-fade-in [animation-delay:200ms]">
 
                         <span className="flex items-center gap-4">
-                            <span>Computer Innovation</span>
+                            <span>Computer Engineering Innovation</span>
 
                             <img
                                 src="./&nobg.png"

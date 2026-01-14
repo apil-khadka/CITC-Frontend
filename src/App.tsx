@@ -5,6 +5,7 @@ import HomePage from './pages/HomePage';
 import TeamPage from './pages/TeamPage';
 import EventsPage from './pages/EventsPage';
 import EventDetailsPage from './pages/EventDetailsPage';
+import AIRegistrationPage from './pages/AIRegistrationPage';
 import ScrollToTop from './components/ScrollToTop';
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         <Route path="/team" element={<TeamPage />} />
         <Route path="/events" element={<EventsPage />} />
         <Route path="/events/:id" element={<EventDetailsPage />} />
+        <Route path="/register/ai" element={<AIRegistrationPage />} />
       </Routes>
       <Footer />
     </div>
