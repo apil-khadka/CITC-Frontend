@@ -13,7 +13,7 @@ const Footer = () => {
                     <div className="space-y-6">
                         <div>
                             <h2 className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-white to-slate-400">
-                                CITClub
+                                CITC
                             </h2>
                             <p className="text-sm text-slate-500 font-mono mt-2">
                                 EST. 2026
