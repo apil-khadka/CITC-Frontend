@@ -56,9 +56,9 @@ const Navbar = () => {
                 <div className="container mx-auto px-4 md:px-6">
                     {/* Desktop & Mobile Navbar Container */}
                     <div
-                        className={`mx-auto max-w-7xl transition-all duration-500 relative ring-1 ${isMobileMenuOpen ? 'rounded-[2.5rem] bg-white dark:bg-slate-900 shadow-2xl ring-blue-500/20 dark:ring-white/20' : 'rounded-full'
+                        className={`mx-auto max-w-7xl transition-all duration-500 relative ring-1 ring-rose-200 dark:ring-rose-900/30 ${isMobileMenuOpen ? 'rounded-[2.5rem] bg-white dark:bg-slate-900 shadow-2xl' : 'rounded-full'
                             } ${isScrolled || isMobileMenuOpen
-                                ? 'bg-white/95 dark:bg-[#0f172a]/95 backdrop-blur-xl shadow-lg px-6 py-3 ring-blue-500/10 dark:ring-white/20'
+                                ? 'bg-white/95 dark:bg-[#0f172a]/95 backdrop-blur-xl shadow-lg px-6 py-3'
                                 : 'bg-transparent ring-transparent px-0 py-2'
                             }`}
                     >
