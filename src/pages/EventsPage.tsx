@@ -157,7 +157,7 @@ const EventsPage = () => {
                 )}
             </div>
         </div>
-        )</>)
+        </>)
 };
 
 

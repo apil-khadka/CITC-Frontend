@@ -78,7 +78,7 @@ const JoinClubPage = () => {
                         marginHeight={0}
                         marginWidth={0}
                         title="💼 CITC Reserve"
-                        className="tally-embed rounded-2xl"
+                        className="tally-embed rounded-2xl dark:invert"
                         style={{ minHeight: '600px' }}
                     />
                 </div>
